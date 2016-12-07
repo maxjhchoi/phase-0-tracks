@@ -1,13 +1,25 @@
+body {
+  border-spacing: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
 .column-1 {
-  width: 33%;
-  display: inline-block;
+  width: 30%;
+  display: table-cell;
   vertical-align: top;
   background: gold;
+  border-style: dotted;
+  border-radius: 24px;
+  padding: 10px;
 }
 
 .column-2 {
-  width: 33%;
-  display: inline-block;
+  width: 30%;
+  display: table-cell;
   vertical-align: top;
   background: purple;
+  border-style: dotted;
+  border-radius: 24px;
+  padding: 10px;
 }
