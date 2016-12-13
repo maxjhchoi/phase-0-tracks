@@ -1,0 +1,27 @@
+#Elevator Algorithm
+
+1. when no buttons are pressed, stay on the floor with the
+doors closed
+2. if a button is pushed on a floor different from where the
+elevator is, move to that floor and open the door
+3. close the door after 5 seconds or until a close button is
+pushed and stay on the floor until a button is pressed for a different floor.
+4. move to that floor unless a button is pushed for a floor
+that is between the starting and destination floors.
+5. if a new floor is reached, open the door.
+6. repeat steps 1 to 5. 
+
+
+#Coffee Machine Algorithm
+
+1. When no buttons are selected, display coffee selections.
+2. If a coffee selection is pressed, match selection from
+array and follow method to brew selection.
+3. (for simplicity, will demonstrate two coffe types) If
+"Espresso" is selected, grind coffee beans and add 1 teacup of hot
+water.
+4. Display "brew complete" message.
+5. If "Americano" is selected, grind coffee beans
+and add 1 cup of hot water.
+6. Display "brew complete" message.
+7. Repeat steps 1 to 7.
