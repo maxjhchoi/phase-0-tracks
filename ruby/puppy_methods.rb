@@ -54,7 +54,18 @@ end
 
 #Release 2
 
-class xx
+class Puppy_Making
+
+#Initializing instance
+  def initialize
+    puts "Initializing new Puppy Making instance ..."
+  end
+
 end
 
+#Looping 50 times
+arr = []
+50.times do  |make_puppies|
+  arr << make_puppies=Puppy_Making.new
+end
 
